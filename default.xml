@@ -548,5 +548,6 @@
 
   <!-- CarbonROM -->
   <include name="carbon-default.xml" />
+  <include name="carbon-jf.xml" />
 
 </manifest>
