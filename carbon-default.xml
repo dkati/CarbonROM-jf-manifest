@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- FIRST: Remove unused/forked AOSP Projects -->
+  <include name="remove.xml" />
+
+  <!-- Include forked AOSP -->
+  <include name="carbon-aosp.xml" />
+
+  <!-- CarbonROM Projects -->
+  <project path="packages/apps/CarbonFibers" name="CarbonROM/android_packages_apps_CarbonFibers" remote="carbon" />
+  <project path="packages/apps/CarbonStats" name="CarbonROM/android_packages_apps_CarbonStats" remote="carbon" />
+
+  <project path="vendor/carbon" name="CarbonROM/android_vendor_carbon" remote="carbon" />
+  <project path="vendor/chromium" name="CarbonROM/android_vendor_chromium" remote="carbon" />
+
+  <!-- Begin TeamSubstratum -->
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" groups="pdk-fs" remote="gh" revision="n" />
+
+  <!-- Begin Vanilla Music -->
+  <project path="packages/apps/Vanilla" name="vanilla-music/vanilla" groups="pdk-fs" remote="gh" revision="master" />
+</manifest>
