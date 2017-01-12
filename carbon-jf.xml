@@ -5,6 +5,8 @@
   <project path="device/samsung/jflte" name="AOSP-JF-MM/platform_device_samsung_jflte" remote="github" revision="aosp-7.1.1" />
   <project path="device/samsung/qcom-common" name="AOSP-JF-MM/android_device_samsung_qcom-common" remote="github" revision="aosp-7.1.1" />
   <project path="kernel/samsung/jf" name="AOSP-JF-MM/android_kernel_samsung_jf" remote="github" revision="aosp-7.1.1" />
+  <project path="vendor/aosp" name="AOSP-JF-MM/platform_vendor_aosp" remote="github" revision="aosp-7.1.1" />
+  <project path="vendor/qcom/binaries" name="AOSP-JF-MM/proprietary_vendor_qcom_binaries" remote="github" revision="aosp-7.1.1" />
 
 <!--blobs-->
  <project path="vendor/samsung" name="AOSP-JF-MM/proprietary_vendor_samsung" remote="github" revision="aosp-7.1.1" />
