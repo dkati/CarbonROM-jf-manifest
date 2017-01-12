@@ -14,8 +14,7 @@
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="cm-14.1" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
 
-  <!--hardware-->
-  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="cm-14.1" />
+ 
   <!--blobs-->
 <project path="vendor/samsung" name="dkati/proprietary_vendor_samsung" remote="github" revision="cm-14.1" />
    <project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-14.1" />
