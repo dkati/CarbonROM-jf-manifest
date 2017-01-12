@@ -57,7 +57,5 @@
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
 
-  <!--our customs-->
-  <remove-project name="platform/frameworks/opt/telephony" />
-  <remove-project name="platform/packages/apps/CarrierConfig"/>
+
 </manifest>
