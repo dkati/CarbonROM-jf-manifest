@@ -3,17 +3,9 @@
 
 <!-- Samsung Galaxy S4 (unified) -->
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" remote="github" revision="cm-14.1" />
-  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
-  <project path="device/samsung/jflte" name="AOSP-JF-MM/platform_device_samsung_jflte" remote="github" revision="aosp-7.1.1" />
-  <project path="device/samsung/qcom-common" name="AOSP-JF-MM/android_device_samsung_qcom-common" remote="github" revision="aosp-7.1.1" />
   <project path="kernel/samsung/jf" name="AOSP-JF-MM/android_kernel_samsung_jf" remote="github" revision="aosp-7.1.1" />
-  <project path="vendor/aosp" name="AOSP-JF-MM/platform_vendor_aosp" remote="github" revision="aosp-7.1.1" />
   <project path="vendor/qcom/binaries" name="AOSP-JF-MM/proprietary_vendor_qcom_binaries" remote="github" revision="aosp-7.1.1" />
   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="github" revision="cm-14.1" />
-
-<!--blobs-->
-
- <project path="vendor/samsung" name="AOSP-JF-MM/proprietary_vendor_samsung" remote="github" revision="aosp-7.1.1" />
 
   <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" remote="github" groups="qcom,qcom_audio" revision="cm-14.1" />
   <project path="hardware/qcom/audio-caf/msm8960" name="LineageOS/android_hardware_qcom_audio" remote="github" groups="qcom,qcom_audio" revision="cm-14.1-caf-8960" />
@@ -24,10 +16,19 @@
 
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="cm-14.1" />
   
-  <project path="frameworks/opt/telephony" name="AOSP-JF-MM/platform_frameworks_opt_telephony" remote="github" revision="aosp-7.1.1" />
-<project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" remote="github" revision="cm-14.1" />
-  <!--<remove-project name="platform/packages/apps/CarrierConfig"/>-->
-  <project path="packages/apps/CarrierConfig" name="AOSP-JF-MM/platform_packages_apps_CarrierConfig" remote="github" revision="aosp-7.1.1" />
+ <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" remote="github" revision="cm-14.1" />
 
+  
+ <project path="device/samsung/jf-common" name="dkati/android_device_samsung_jf-common" />
+  <project path="kernel/samsung/jf" name="LineageOS/android_kernel_samsung_jf" />
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" />
+  <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
+  <!--jfltexx stuff-->
+  <project path="device/samsung/jfltexx" name="dkati/android_device_samsung_jfltexx" />
+  <!--hardware-->
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" />
+  <!--blobs-->
+<project path="vendor/samsung" name="dkati/proprietary_vendor_samsung" />
    
 </manifest>
