@@ -45,8 +45,8 @@
   <project path="hardware/libhardware" name="AOSP-JF-MM/platform_hardware_libhardware" groups="pdk" remote="github" revision="aosp-7.1.1" />
   <project path="hardware/libhardware_legacy" name="AOSP-JF-MM/platform_hardware_libhardware_legacy" groups="pdk" remote="github" revision="aosp-7.1.1" />
   <!-- <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" /> -->
-  <project path="hardware/ril" name="AOSP-JF-MM/platform_hardware_ril" groups="pdk" remote="github" revision="aosp-7.1.1" />
-  <project path="hardware/ril-caf" name="AOSP-JF-MM/platform_hardware_ril" groups="pdk" remote="github" revision="aosp-7.1.1-caf" />
+   <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" remote="github" revision="cm-14.1-caf"/>
+<project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="pdk" remote="github" revision="cm-14.1-caf" />
   <project path="hardware/samsung" name="AOSP-JF-MM/android_hardware_samsung" remote="github" revision="aosp-7.1.1" />
   <!-- <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" /> -->
   <!-- <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" /> -->
