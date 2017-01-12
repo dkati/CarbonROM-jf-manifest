@@ -3,7 +3,7 @@
 
 <!-- Samsung Galaxy S4 (unified) -->
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" remote="github" revision="cm-14.1" />
-  <project path="vendor/qcom/binaries" name="AOSP-JF-MM/proprietary_vendor_qcom_binaries" remote="github" revision="aosp-7.1.1" />
+   <project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" remote="github" revision="cm-14.1" />
   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="github" revision="cm-14.1" />
 
   <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" remote="github" groups="qcom,qcom_audio" revision="cm-14.1" />
