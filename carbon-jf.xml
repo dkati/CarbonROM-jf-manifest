@@ -15,11 +15,11 @@
 
  <project path="vendor/samsung" name="AOSP-JF-MM/proprietary_vendor_samsung" remote="github" revision="aosp-7.1.1" />
 
+  <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1" />
   <project path="hardware/qcom/audio-caf/msm8960" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8960" />
    <project path="hardware/qcom/display-caf/msm8960" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8960" />
 <project path="hardware/qcom/media-caf/msm8960" name="LineageOS/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8960" />
-<project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" revision="cm-14.1" />
-  
+
   <project path="frameworks/opt/telephony" name="AOSP-JF-MM/platform_frameworks_opt_telephony" remote="github" revision="aosp-7.1.1" />
 
   <!--<remove-project name="platform/packages/apps/CarrierConfig"/>-->
